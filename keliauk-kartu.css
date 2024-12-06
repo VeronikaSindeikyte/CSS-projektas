@@ -1,0 +1,512 @@
+body {
+  margin: 0 auto;
+  font-family: Plus Jakarta Sans;
+}
+
+/* ==========HEADER============ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  box-shadow: 0px 2px 10px 0px #00000026;
+}
+
+header ul {
+  padding: 0;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+  header ul li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+header li {
+  display: flex;
+  display: inline;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+header li a {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #1b6bed;
+}
+
+header img {
+  width: 122.07px;
+  height: 15px;
+}
+
+/* ==========HEADER============ */
+
+/* ==========BLOCK1============ */
+
+#block1 {
+  background-image: url(nuotraukos/pirmafotke.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.block1content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  color: white;
+}
+
+.block1content h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 113.4px;
+  margin: 0 auto;
+}
+
+.block1content p {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 45.36px;
+}
+
+.block1content a {
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  color: white;
+  border-radius: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin: 20px;
+}
+
+.block1content a:hover {
+  border: 2px solid rgb(0, 174, 255);
+  background-image: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+}
+
+#baltoslinijos {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+/* ==========BLOCK1============ */
+
+/* ==========BLOCK2============ */
+
+#block2 {
+  background-color: rgb(233, 229, 229);
+  display: flex;
+  flex-direction: column;
+}
+
+.iconandp {
+  display: flex;
+  padding: 5% 15%;
+}
+
+.iconandp img {
+  width: 64px;
+  height: 64px;
+  padding: 0 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+#block2content {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#ypatingoslietuvosvietos {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 5% 15%;
+  position: relative;
+  height: 900px;
+  max-width: 1320px;
+  padding: 40px 600px 40px 40px;
+  box-shadow: 20px 20px 20px 20px #7A74741A;
+
+}
+
+#ylvtekstas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 500px;
+}
+
+#ylvtekstas h4 {
+  color: #a6a6a6;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#ylvtekstas .locationicon {
+  width: 16px;
+  height: 19px;
+  padding: 0 10px;
+}
+
+#rodykles {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  max-width: 400px;
+}
+
+#mygtukai {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: left;
+  text-align: center;
+}
+
+#mygtukai a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 183px;
+  height: 50.31px;
+  padding: 10px;
+  border-radius: 36px;
+  text-decoration: none;
+  border: 2px solid rgb(0, 174, 255);
+  background-image: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  color: transparent;
+  background-clip: text;
+}
+
+#mygtukai a:hover {
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  color: white;
+}
+
+#mygtukai span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.07px;
+  color: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+}
+
+#block2bothimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30%;
+  padding: 20px;
+  max-width: 1200px;
+  height: 800px;
+}
+
+#block2foto {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  position: absolute;
+  z-index: 2;
+}
+
+#lietuvosimg {
+  max-width: 806.79px;
+  height: 900px;
+  object-fit: contain;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  #block2content {
+    background-color: #cbd0db;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #block2bothimages {
+    position: static;
+    right: 20%;
+    padding: 20px;
+    max-width: 1000px;
+  }
+
+  #lietuvosimg,
+  #block2foto {
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+  }
+
+  #ypatingoslietuvosvietos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 15%;
+  }
+
+  #ylvtekstas h4 {
+    font-size: 150%;
+  }
+
+  #mygtukai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rodykles {
+    position: absolute;
+    bottom: -20%;
+    left: 25%;
+  }
+}
+
+/* ==========BLOCK2============ */
+
+/* ==========BLOCK3============ */
+
+#block3 {
+  background-image: url(nuotraukos/block3background.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.block3content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #333333;
+}
+
+#block3text {
+  max-width: 438px;
+  padding: 20px;
+}
+
+#skaiciai {
+  display: grid;
+  gap: 20px;
+  padding: 15px;
+  grid-template-areas:
+    "pirmas antras"
+    "trecias ketvirtas";
+  text-align: left;
+}
+
+.skaiciai .pirmas {
+  grid-area: pirmas;
+}
+
+.skaiciai .antras {
+  grid-area: antras;
+}
+
+.skaiciai .trecias {
+  grid-area: trecias;
+}
+
+.skaiciai .ketvirtas {
+  grid-area: ketvirtas;
+}
+
+#apverstoslinijos {
+  position: absolute;
+  max-width: 600px;
+  max-height: 400px;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 600px) {
+  #apverstoslinijos {
+   display: none;
+  }
+}
+
+/* ==========BLOCK3============ */
+
+/* ==========BLOCK4============ */
+
+#block4 {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+#block4 h1 {
+  color: #262020;
+}
+
+#galerija {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.galerijosfoto img {
+  max-width: 282px;
+  height: 282px;
+}
+
+.galerijosfoto {
+  position: relative;
+}
+
+.galerijosfoto p {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  color: white;
+  background-color: #2b2b2bb2;
+  width: 262px;
+  padding: 16px 10px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#melynajuosta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 300px;
+  max-height: 400px;
+  z-index: -1;
+}
+
+#apverstamelynajuosta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 300px;
+  max-height: 400px;
+  z-index: -1;
+}
+
+/* ==========BLOCK4============ */
+
+/* ==========FOOTER============ */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #11224d;
+  color: white;
+  padding: 5% 15%;
+}
+
+footer img {
+  max-width: 244.13px;
+  height: 30px;
+}
+
+#sekitemus {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+
+#ikonos {
+  display: flex;
+}
+
+#ikonos img {
+  padding: 10px 10px 10px 0;
+  max-width: 48px;
+  height: 48px;
+}
+
+#nuorodos {
+  display: flex;
+  align-items: center;
+  color: #dcf2ed;
+  gap: 100px;
+}
+
+#nuorodos ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#nuorodos ul li {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+#navigacija ul li a {
+  text-decoration: none;
+  color: #dcf2ed;
+}
+
+/* ==========FOOTER============ */
+
+#copyright {
+  background-color: #11224d;
+  color: white;
+  margin: 0 auto;
+  border-top: 1px solid #509c8a;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

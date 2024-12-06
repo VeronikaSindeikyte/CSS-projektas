@@ -1,0 +1,283 @@
+body {
+  margin: 0 auto;
+  font-family: Plus Jakarta Sans;
+  background-color: rgb(235, 234, 234);
+}
+
+/* ==========HEADER============ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  box-shadow: 0px 2px 10px 0px #00000026;
+  background-color: white;
+}
+
+header ul {
+  padding: 0;
+  width: fit-content;
+}
+
+@media (max-width: 800px) {
+  header ul li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+header li {
+  display: flex;
+  display: inline;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+header li a {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #1b6bed;
+}
+
+header img {
+  width: 122.07px;
+  height: 15px;
+}
+
+/* ==========HEADER============ */
+
+/* ==========BLOCK1============ */
+
+#block1 {
+  background-image: url(kontaktai-foto/labirintai.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  padding: 0 15%;
+}
+
+/* ==========BLOCK1============ */
+
+/* ==========BLOCK2============ */
+
+#block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "kontaktai forma"
+    "zemelapis forma";
+  margin: 20px 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  #block2 {
+    grid-template-areas:
+      "kontaktai"
+      "zemelapis"
+      "forma";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: white;
+  }
+
+  #zemelapis {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+#kontaktaiirrekvizitai {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  grid-area: kontaktai;
+  background: #ffffff;
+  max-width: 780px;
+  height: 450px;
+}
+
+#rekvizitai {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+#kontaktai {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+#kontaktai,
+#rekvizitai {
+  max-width: 300px;
+}
+
+#kontaktai ul li,
+#rekvizitai ul li {
+  padding: 10px;
+  width: 200px;
+}
+
+#kontaktai ul li a,
+#rekvizitai ul li span {
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+}
+
+#kontaktai ul li a img {
+  width: 16px;
+  height: 19px;
+  padding: 0 10px;
+}
+
+#zemelapis {
+  grid-area: zemelapis;
+  background: #e0e0e0;
+  max-width: 780px;
+}
+
+#forma {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  grid-area: forma;
+  background: #ffffff;
+  height: 780px;
+  padding: 0 80px;
+}
+
+#forma h2 {
+  position: absolute;
+  top: 5%;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #999999;
+}
+
+textarea {
+  max-width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #999999;
+}
+
+#siusti {
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  max-width: 184px;
+  height: 48px;
+  padding: 15px 34px 15px 34px;
+  gap: 10px;
+  border-radius: 24px;
+  color: white;
+}
+
+#siusti:hover {
+  border: 2px solid rgb(0, 174, 255);
+  background-image: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  color: transparent;
+  background-clip: text;
+}
+
+/* ==========BLOCK2============ */
+
+/* ==========FOOTER============ */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #11224d;
+  color: white;
+  padding: 5% 15%;
+}
+
+footer img {
+  max-width: 244.13px;
+  height: 30px;
+}
+
+#sekitemus {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+
+#ikonos {
+  display: flex;
+}
+
+#ikonos img {
+  padding: 10px 10px 10px 0;
+  max-width: 48px;
+  height: 48px;
+}
+
+#nuorodos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #dcf2ed;
+  gap: 100px;
+}
+
+#nuorodos ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#nuorodos ul li {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+#navigacija ul li a {
+  text-decoration: none;
+  color: #dcf2ed;
+}
+
+/* ==========FOOTER============ */
+
+#copyright {
+  background-color: #11224d;
+  color: white;
+  margin: 0 auto;
+  border-top: 1px solid #509c8a;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
